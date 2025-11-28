@@ -125,10 +125,14 @@ header h1{
 }
 }
 .stars {
+    /* Keep the width proportional to the container */
     width: 57% !important;
-    height: 20% !important;
-    object-fit: contain !important; /* ✅ FIX: Image will fit inside, maintaining aspect ratio */
-    object-position: center !important; /* Position the image within the element */
+    
+    /* ✅ FIX: Let the height scale automatically to maintain the 4.69 ratio */
+    height: auto !important; 
+    
+    /* Remove any other properties that might force a specific height */
 }
 }
+
 
