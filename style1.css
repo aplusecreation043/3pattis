@@ -7,10 +7,7 @@ html {
 	margin: 0 auto;
 	background-color:#ffffff;
 }
-.support a{
-    /* Change the path to the correct location */
-    background-image: url("/images/support.webp"); 
-}
+
 }
 .container .downBtn{
   position: absolute;
@@ -129,6 +126,7 @@ header h1{
     /* Remove any other properties that might force a specific height */
 }
 }
+
 
 
 
