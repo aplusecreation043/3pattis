@@ -1,0 +1,148 @@
+@import "font-awesome.min.css";
+ul,
+h1,
+h2,
+h3,
+h4,
+p,
+th,
+td {
+	margin: 0;
+	padding: 0
+}
+h1,h2,h3,h4{
+	font-size: 100%;
+	font-weight: 400
+}
+html {
+	font-size: 100px
+}
+body {
+	font-size: .24rem
+}
+body {
+	margin: 0;
+	font-family: microsoft yahei, Arial, Tahoma, Helvetica, simsun, hiragino sans gb, sans-serif;
+	color: #333;
+	background-color: #ebebeb;
+	position: relative
+}
+html,
+body {
+	width: 100%
+	
+}
+.bg {
+	background: #1ff1f1;
+}
+.flex {
+	display: flex
+}
+.flex_grow {
+	-moz-flex-grow: 1;
+	flex-grow: 1
+}
+b,
+em,
+i {
+	font-style: normal;
+	font-weight: 400
+}
+body,
+html {
+	width: 100%
+}
+a {
+	color: #333333;
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent
+}
+.btn {
+	background-color: #0096fc;
+}
+.btn:hover {
+	background-color: #0096fc;
+	opacity: .9;
+	-webkit-transform: scale(.96)
+}
+.RummyTop_com ul li {
+	padding-top: .2rem;
+	align-items: center
+}
+.RummyTop_com ul li img {
+	display: block;
+	width: 1.4rem;
+	height: 1.4rem;
+	border-radius: .18rem
+}
+.RummyTop_com ul li .flex_grow {
+	width: 0%
+	color: #333;
+	
+}
+.RummyTop_com ul li .info {
+	margin: 0 .28rem 0 .18rem
+}
+.RummyTop_com ul li .info p {
+	display: block;
+	width: auto;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: .21rem
+	
+}
+.RummyTop_com ul li .info .name {
+	font-size: .25rem;
+	color: #454545;
+	font-weight: 500;
+	line-height: .42rem;
+	font-weight: 700
+}
+.RummyTop_com ul li .info .grade {
+	color: #e6e6e6;
+	line-height: .31rem
+}
+.RummyTop_com ul li .info .grade span {
+	color: #f0c64c;
+	font-weight: 700
+}
+.RummyTop_com ul li .info .grade em {
+	color: #ffa709;
+	font-size: .23rem
+}
+.RummyTop_com ul li .info .grade i {
+	display: inline-block;
+	width: .24rem;
+	height: .25rem;
+	background-position: -1.93rem -1.7rem;
+	position: relative;
+	top: .03rem;
+	margin-right: 0;
+}
+.RummyTop_com ul li .info .txt {
+	color: #02AF27;
+	line-height: .36rem;
+	font-weight: 740;
+	font-size: .2rem
+}
+.RummyTop_com ul li .info .red {
+	color: #ff0320;
+	line-height: .36rem;
+	font-weight: 740;
+	font-size: .2rem
+}
+.RummyTop_com ul li .btn {
+	display: block;
+	line-height: .55rem;
+	margin: 0 Auto;
+	border-radius: .06rem;
+	color: #ffffff;
+	font-size: .24rem;
+	text-align: center;
+	width: 2.1rem;
+	height: .55rem;
+	border: none;
+	font-weight: 700;
+	cursor: pointer;
+	border-radius: 5px
+}
