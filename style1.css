@@ -8,14 +8,9 @@ html {
 	background-color:#ffffff;
 }
 .support a{
-	position: fixed;
-	top: 10%;
-	right: 2%;
-	width: 1rem;
-	height: 1rem;
-	background-image: url("../image/support.webp");
-	background-size: 100% 100%;
-	z-index: 999;
+    /* Change the path to the correct location */
+    background-image: url("/images/support.webp"); 
+}
 }
 .container .downBtn{
   position: absolute;
@@ -134,5 +129,6 @@ header h1{
     /* Remove any other properties that might force a specific height */
 }
 }
+
 
 
