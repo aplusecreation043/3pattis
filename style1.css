@@ -124,8 +124,11 @@ header h1{
     cursor: pointer;
 }
 }
-.stars{
+.stars {
     width: 57% !important;
     height: 20% !important;
-
+    object-fit: contain !important; /* ✅ FIX: Image will fit inside, maintaining aspect ratio */
+    object-position: center !important; /* Position the image within the element */
 }
+}
+
