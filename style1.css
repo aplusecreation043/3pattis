@@ -41,15 +41,22 @@ html {
 	margin-top: 0.2rem;
 }
 .footer .links a {
-	display: flex;
-	align-items: center;
-	height: 0.08rem;
-	margin-bottom: 0.2667rem;
-	padding: 0 0.1rem;
-	font-size: 0.28rem;
-	text-decoration: none;
-	color: #afafaf;
-	font-weight: bold;
+    display: flex;
+    align-items: center;
+    /* ❌ REMOVED: height: 0.08rem; */
+    
+    /* ✅ FIX: Add generous vertical padding (0.15rem = 15px) 
+       This makes the total tappable area much larger than 44px */
+    padding: 0.15rem 0.1rem; 
+    
+    /* This margin provides necessary spacing between link rows, and is kept */
+    margin-bottom: 0.2667rem; 
+    
+    font-size: 0.28rem;
+    text-decoration: none;
+    color: #afafaf;
+    font-weight: bold;
+}
 }
 .footer .links a.border {
 	border-right: 1px dashed #afafaf;
@@ -94,19 +101,31 @@ header h1{
 	padding-top: .1rem;
 }
 .home button{
-	width: 1rem;
-	color: white;
-	background-color: #4dacff;
-	padding-right: 1rem;
-	padding-left: .4rem;
-	margin-left: .1rem;
-	margin-right: .1rem;
-	font-size: .25rem;
-	font-weight: bold;
-	border-radius: .1rem;
-	cursor: pointer;
+.home button {
+    width: 1rem;
+    color: white;
+    background-color: #4dacff;
+    
+    /* ✅ FIX: Ensure sufficient vertical padding for 44px height */
+    padding-top: 0.15rem;    /* 15px */
+    padding-bottom: 0.15rem; /* 15px */
+    
+    /* Original horizontal padding was odd; fixed to be symmetric */
+    padding-left: 0.4rem;  
+    padding-right: 0.4rem; 
+    
+    /* ✅ FIX: Ensure spacing between adjacent buttons (10px margin) */
+    margin-left: 0.1rem; 
+    margin-right: 0.1rem;
+    
+    font-size: 0.25rem;
+    font-weight: bold;
+    border-radius: 0.1rem;
+    cursor: pointer;
+}
 }
 .stars{
     width: 57% !important;
     height: 20% !important;
+
 }
