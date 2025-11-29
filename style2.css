@@ -33,7 +33,7 @@ body {
 	
 }
 .bg {
-	background: #1ff1f1;
+	background: #ebebeb;
 }
 .flex {
 	display: flex
@@ -156,6 +156,7 @@ a {
 	cursor: pointer;
 	border-radius: 5px
 }
+
 
 
 
