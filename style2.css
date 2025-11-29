@@ -65,25 +65,25 @@ a {
 	opacity: .9;
 	-webkit-transform: scale(.96)
 }
-.RummyTop_com ul li {
+.apluse_ ul li {
 	padding-top: .2rem;
 	align-items: center
 }
-.RummyTop_com ul li img {
+.apluse_ ul li img {
 	display: block;
 	width: 1.4rem;
 	height: 1.4rem;
 	border-radius: .18rem
 }
-.RummyTop_com ul li .flex_grow {
+.apluse_ ul li .flex_grow {
 	width: 0%
 	color: #333;
 	
 }
-.RummyTop_com ul li .info {
+.apluse_ ul li .info {
 	margin: 0 .28rem 0 .18rem
 }
-.RummyTop_com ul li .info p {
+.apluse_ ul li .info p {
 	display: block;
 	width: auto;
 	overflow: hidden;
@@ -91,26 +91,26 @@ a {
 	font-size: .21rem
 	
 }
-.RummyTop_com ul li .info .name {
+.apluse_ ul li .info .name {
 	font-size: .25rem;
 	color: #454545;
 	font-weight: 500;
 	line-height: .42rem;
 	font-weight: 700
 }
-.RummyTop_com ul li .info .grade {
+.apluse_ ul li .info .grade {
 	color: #e6e6e6;
 	line-height: .31rem
 }
-.RummyTop_com ul li .info .grade span {
+.apluse ul li .info .grade span {
 	color: #f0c64c;
 	font-weight: 700
 }
-.RummyTop_com ul li .info .grade em {
+.apluse_ ul li .info .grade em {
 	color: #ffa709;
 	font-size: .23rem
 }
-.RummyTop_com ul li .info .grade i {
+.apluse_ ul li .info .grade i {
 	display: inline-block;
 	width: .24rem;
 	height: .25rem;
@@ -119,19 +119,19 @@ a {
 	top: .03rem;
 	margin-right: 0;
 }
-.RummyTop_com ul li .info .txt {
+.apluse_ ul li .info .txt {
 	color: #02AF27;
 	line-height: .36rem;
 	font-weight: 740;
 	font-size: .2rem
 }
-.RummyTop_com ul li .info .red {
+.apluse_ ul li .info .red {
 	color: #ff0320;
 	line-height: .36rem;
 	font-weight: 740;
 	font-size: .2rem
 }
-.RummyTop_com ul li .btn {
+.apluse_ ul li .btn {
 	display: block;
 	line-height: .55rem;
 	margin: 0 Auto;
@@ -147,3 +147,4 @@ a {
 	border-radius: 5px
 
 }
+
