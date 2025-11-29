@@ -118,14 +118,15 @@ header h1{
 }
 .stars {
     /* Keep the width proportional to the container */
-    width: 80% !important;
+    width: 57% !important;
     
     /* ✅ FIX: Let the height scale automatically to maintain the 4.69 ratio */
-    height: 17 !important; 
+    height: auto !important; 
     
     /* Remove any other properties that might force a specific height */
 }
 }
+
 
 
 
