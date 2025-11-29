@@ -132,7 +132,7 @@ a {
 	font-size: .2rem
 }
 .apluse_ ul li .btn {
-.flex > .btn {
+
         display: flex;       
         justify-content: center; 
         align-items: center;  
